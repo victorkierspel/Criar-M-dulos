@@ -1,0 +1,6 @@
+with open('meu_modulo.py', 'w') as file:
+    file.write('''def saudacao(nome):
+return f'ola, {nome}!' ''')
+
+from meu_modulo import saudacao
+print(saudacao('Mundo'))
